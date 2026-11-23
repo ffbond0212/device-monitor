@@ -1,0 +1,37 @@
+# ---- Keil MDK-ARM 编译输出（不跟踪）----
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+MDK-ARM/Device_Monitor/
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.lst
+MDK-ARM/*.ScVD
+
+# ---- Keil 中间产物 ----
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.lst
+*.map
+*.dep
+*.iex
+*.build_log.htm
+JLinkLog.txt
+
+# ---- 编译输出目录 ----
+Objects/
+Listings/
+
+# ---- CubeMX 自带的无用测试套件 ----
+Drivers/CMSIS/DSP/DSP_Lib_TestSuite/
+
+# ---- 系统垃圾 ----
+Thumbs.db
+desktop.ini
+
+# ---- 临时文件 ----
+*.bak
+*.tmp
+~$*
